@@ -33,7 +33,9 @@ section{
 .campo1{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    height: 1000px;
+    align-items: flex-start;
+    padding: 100px 0 0 0;
     height: 700px;
 }
 .contenido1{
@@ -68,6 +70,10 @@ h1{
     align-items: center;
     justify-content: space-around;
     box-shadow: 10px 10px 30px gray;
+    position: absolute;
+    top: calc(110% - 40px);
+    left: 9.5%;
+    width: 80%;
 }
 .mini-contenido{
     display: flex;
@@ -97,4 +103,218 @@ h1{
     color:rgb(250, 211, 38) ;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.campo2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(250, 211, 38);
+    padding: 300px 0 0 0;
+    height: 780px;
+    align-items: center ;
+}
+.contenido2{
+    display: flex;
+    width: 1230px;
+    justify-content: space-between;
+}
+.sub1{
+    font-size: 50px;
+}
+.tex{
+    width: 350px;
+}
+.bot2{
+    border: none;
+    width: 140px;
+    height: 35px;
+    background-color: black;
+    color: white;
+}
+.solu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 190px;
+    justify-content: space-between;
+}
+
+.contenedor1{
+display: flex;
+align-items: center;
+height: 1000px;
+
+}
+.contenido3{
+    display: flex;
+    background-color: rgb(218, 218, 218);
+    width: 1500px;
+    height: 600px;
+    justify-content: space-between;
+    box-shadow: 10px 10px 30px gray;
+    align-items: ce
+}
+.contener{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    margin:50px 100px 0 0;
+    height: 500px;
+}
+.imagen{
+display: flex;
+justify-content: end;
+}
+.sub2{
+    font-size: 65px;
+    color: rgb(235, 200, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor4{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+}
+.campo4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+    height: 800px;
+    margin: 50px 0 20px 0;
+}
+.sub3{
+    color: rgb(255, 230, 1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+.tex3{
+    color: rgb(211, 211, 211);
+    text-align: center;
+    width: 750px;
+}
+.bot3{
+    border: none;
+    background-color: rgb(221, 188, 2) ;
+    width: 140px;
+    height: 35px;
+}
+.bot3:hover{
+    background-color: rgb(233, 198, 3) ;
+}
+.contenedor5{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.campo5{
+    display: flex;
+    width: 80%;
+    height: 700px;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenido4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 230px;
+}
+.sub4{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.foto5{
+    width: 600px;
+}
+.contenedor6{
+    display: flex;
+    background-color: rgb(218, 218, 218);
+   justify-content: center;
+    width: 100%;
+}
+.campo6{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    height: 800px;
+}
+.contenido5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 290px;
+}
+.tex5{
+    text-align: justify;
+}
+.foto3{
+    height: 600px;
+}
+.contenedor7{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.campo7{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 700px;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    height: 450px;
+    width: 500px;
+    justify-content: space-evenly
+}
+.contenido6{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+.sur{
+    display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+}
+.cor{
+    display: flex;
+    flex-direction: column;
+}
+.nameSurn{
+    color: white;
+}
+.name{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 25px;
+    width: 180px;
+}
+.ingre{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 25px;
+    width: 410px;
+}
+.mensa{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 100px;
+    width: 410px;
 }
