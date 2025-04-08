@@ -73,6 +73,13 @@ h1 {
     background-color: rgb(250, 211, 38);
 }
 
+.todo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
 .mini-campo {
     display: flex;
     background-color: rgb(236, 236, 236);
@@ -82,7 +89,7 @@ h1 {
     justify-content: space-around;
     box-shadow: 10px 10px 30px gray;
     position: absolute;
-    top: calc(110% - 40px);
+    top: calc(100% - 170px);
     left: 9.5%;
     width: 80%;
 }
@@ -403,4 +410,57 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .te{
     font-size: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 600px;
+}
+.contenedor9{
+    display: flex;
+    width: 95%;
+    margin-top: 60px;
+}
+.lowi{
+    width: 95%;
+    margin-top: 50px;
+}
+ul{
+    list-style-type: none;
+    margin: 0 30px 0 0;
+}
+.lista{
+    margin: 0 0 5px 0;
+}
+.contenido7{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 95%;
+    height: 200px;
+}
+#linea{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+    border-radius: 5px;
+}
+.conti{
+    display: flex;
+    justify-content: space-between;
+}
+.copy{
+    color: rgb(248, 203, 4);
+}
+.opcion{
+    text-decoration: none;
+    color: rgb(248, 203, 4);
+}
+.logos{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
 }
