@@ -76,6 +76,8 @@ h1 {
 .todo{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
     width: 100%;
 }
@@ -346,8 +348,8 @@ h1 {
 
 .sur {
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+    justify-content: space-between;
+    width: 444px;
 }
 
 .cor {
@@ -463,4 +465,299 @@ ul{
     display: flex;
     width: 100px;
     justify-content: space-between;
+}
+
+
+@media (max-width: 1279px){
+     .contenido3{
+        width: 90%;
+        justify-content: space-between;
+     }
+     .foto1{
+        width: 450px;
+     }
+     h1{
+        font-size: 50px;
+     }
+     .contenido1{
+        height: 350px;
+        width: 30%;
+     }
+     .foto6{
+        width: 900px;
+     }
+     .foto2{
+        width: 500px;
+     }
+     .contenido2{
+        width: 900px;
+        justify-content: space-evenly;
+     }
+     .contenedor1{
+        justify-content: center;
+        
+     }
+     .contener{
+        padding: 20px;
+        margin:  0;
+     }
+     .sub2{
+        font-size: 45px;
+     }
+     .foto4{
+        width: 100%;
+     }
+     .mini-foto{
+        height: 170px;
+     }
+     .mini-ima{
+        width: 50%;
+     }
+     .foto5{
+        width: 500px;
+     }
+     .campo6{
+        width: 150dvh;
+        justify-content: space-evenly;
+     }
+     .campo7{
+        width: 95%;
+     }
+     .foto3{
+        width: 80dvh;
+     }
+     .contenido4{
+        padding: 20px;
+     }
+    .contenido5{
+        height: 60dvh;
+        padding: 20px;
+    }
+     .contenido6{
+        height: 60dvh;
+        padding: 20px;
+     }
+     .info{
+        padding: 20px;
+     }
+     .sur{
+        justify-content: space-between;
+     }
+}
+
+@media (max-width: 920px){
+    
+    .contenedor1{
+        height: 150dvh;
+    }
+    .foto3{
+        display: none;
+    }
+    .contener{
+        width: 100%;
+    }
+    .campo7{
+        flex-direction: column;
+        height: 250dvh;
+    }
+    .foto6{
+        width: 120dvh;
+    }
+    .contenido2{
+        width: 140dvh;
+    }
+    .foto2{
+        width: 70dvh;
+    }
+    .campo2{
+        height: 80dvh;
+    }
+    .sub1{
+        font-size: 40px;
+        padding: 0 0 0 20px;
+    }
+    .campo1{
+        padding: 0 0 150px 0;
+        flex-direction: column-reverse;
+        height: 150dvh;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .contenido1{
+        width: 90%;
+        height: 50dvh;
+        
+    }
+
+    .mini-foto {
+        height: 140px;
+    }
+    .mini-sub{
+        font-size: 35px;
+    }
+    .mini-contenido{
+        width: 40dvh;
+    }
+   .mini-sub{
+    font-size: 30px;
+   }
+   .campo5{
+    flex-direction: column-reverse;
+   }
+   .contenido4{
+    height: 180px;
+   }
+   .sub1{
+    padding: 0;
+   }
+   .campo8{
+    height: 130dvh;
+   }
+}
+
+@media (max-width: 768px){
+    .tex3{
+        width: 400px;
+    }
+    .contenido2{
+        flex-direction: column;
+        width: 100%;
+        height: 120dvh;
+    }
+    .contenido4{
+        width: 100%;
+    }
+    .campo6{
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+        padding: 0;
+    }
+    .contenido6{
+        width: 100%;
+    }
+    .campo8{
+        width: 100%;
+    }
+    .foto6{
+        width: 90%;
+    }
+    .mini-campo{
+        flex-direction: column;
+    }
+    .foto5{
+        width: 100%;
+    }
+    .contenido6{
+        padding: 0;
+    }
+    header{
+        flex-direction: column;
+    }
+    .inicios{
+        margin: 0;
+    }
+    .logo{
+        margin: 0;
+    }
+    .contenido1{
+        height: 270px;
+    }
+    .foto1{
+        width: 430px;
+    }
+    .campo2{
+        height: 100%;
+    }
+    .campo4{
+        width: 100%;
+        height: 120dvh;
+    }
+    .foto4{
+        width: 90%;
+    }
+    .campo6{
+        height: 100dvh;
+    }
+}
+
+
+@media (max-width: 480px){
+    .campo1{
+        width: 100%;
+    }
+    .foto1{
+        width: 90%;
+    }
+    .ima{
+        display: flex;
+        justify-content: center;
+    }
+    .mini-foto{
+        height: 100px;
+    }
+    .tex6{
+        width: 90%;
+    }
+    .sur{
+        flex-direction: column;
+        width: 90%;
+    }
+    .name{
+        width: 300px;
+    }
+    .cor{
+        width: 90%;
+    }
+    .nameSurn{
+        margin-top: 10px;
+    }
+    .ingre{
+        width: 100%;
+    }
+    .mensa{
+        width: 100%;
+    }
+    .tex3{
+        width: 100%;
+    }
+    .contenido4{
+        padding: 0;
+    }
+    .inicios{
+        justify-content: space-evenly;
+    }
+    .contenido1{
+        height: 70dvh;
+    }
+    .contenido2{
+        align-items: center;
+    }
+    .solu{
+        width: 90%;
+    }
+    .tex{
+        width: 100%;
+    }
+    .sub1{
+        font-size: 30px;
+    }
+    .contenido5{
+        padding: 0;
+        width: 90%;
+        height: 70dvh;
+    }
+    .contenido4{
+        height: 50dvh;
+    }
+    .contenido6{
+        height: 70dvh;
+    }
+    .te{
+        text-align: center;
+    }
+    .campo8{
+        height: 100dvh;
+    }
 }
