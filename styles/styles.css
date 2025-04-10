@@ -723,13 +723,14 @@ ul{
         width: 100%;
     }
     .contenido4{
+        height: 220px;
         padding: 0;
     }
     .inicios{
         justify-content: space-evenly;
     }
     .contenido1{
-        height: 70dvh;
+        height: 300px;
     }
     .contenido2{
         width: 90%;
@@ -742,6 +743,10 @@ ul{
     }
     .solu{
         width: 90%;
+        height: 210px;
+    }
+    .campo4{
+        height: 500px;
     }
     .tex{
         width: 90%;
@@ -755,18 +760,21 @@ ul{
     .contenido5{
         padding: 0;
         width: 90%;
-        height: 70dvh;
+        height: 310px;
     }
     .contenido4{
         height: 50dvh;
     }
     .contenido6{
-        height: 70dvh;
+        height: 350px;
     }
     .te{
         text-align: center;
     }
     .campo8{
-        height: 100dvh;
+        height: 450px;
+    }
+    .campo7{
+        height: 1144px;
     }
 }
